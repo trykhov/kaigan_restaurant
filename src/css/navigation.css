@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  float: left;
+  height: 100px;
+  width: 200px;
+  margin-left: 10px;
+}
+
+.menu-toggle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float: right;
+  height: 50px;
+  width: 50px;
+  background-color: white;
+}
+
+header {
+  overflow: auto;
+  background-color: white;
+  background: black;
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul li a, div a {
+  color: white;
+  font-family: 'Concert One', sans-serif;
+  font-size: 40px;
+  text-decoration: none;
+  display: block;
+  margin: 10px 20px;
+  padding: 20px;
+}
+
+div a {
+  font-size: 40px;
+  text-align: center;
+}
+
+nav ul li a:hover {
+  color: green;
+  cursor: pointer;
+}
+
+
+@media (min-width: 825px) {
+  .menu-toggle, .active {
+    display: none;
+  }
+}
+
+@media (max-width: 825px) {
+  header {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .fas {
+    color: white;
+  }
+
+  .menu-toggle {
+    position: absolute;
+    right: 20px;
+    background-color: black;
+    border: 1px solid gray;
+    cursor: pointer;
+  }
+
+  nav {
+    display: none;
+  }
+}
