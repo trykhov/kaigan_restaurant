@@ -1,3 +1,7 @@
+ This is a proof of concept website for my brother's sushi restaurant. The design wasn't 100% of my focus at the moment but my aim was to create a site that presented information such as the menu and the basic information such as hours and contact number.
+ 
+ ---
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
