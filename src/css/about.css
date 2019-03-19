@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.about_text {
+  height: auto;
+  line-height: 40px;
+  width: 400px;
+  font-size: 4vh;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  border: 2px solid gray;
+}
+
+@media (max-width: 500px) {
+  .about_text {
+    width: 300px;
+    font-size: 4vw;
+  }
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: black;
+  overflow: auto;
+  padding: 10px 0 0;
+}
+
+.description {
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+
+.about-image {
+  overflow: auto;
+  float: right;
+  margin: 10px;
+  position: relative;
+}

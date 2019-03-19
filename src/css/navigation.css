@@ -53,19 +53,19 @@ div a {
   text-align: center;
 }
 
-nav ul li a:hover {
+nav ul li a:hover, div a:hover {
   color: green;
   cursor: pointer;
 }
 
 
-@media (min-width: 825px) {
+@media (min-width: 1000px) {
   .menu-toggle, .active {
     display: none;
   }
 }
 
-@media (max-width: 825px) {
+@media (max-width: 1000px) {
   header {
     position: relative;
     display: flex;

@@ -1,0 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.location, .contact-info, .hours {
+  width: 40%;
+  height: auto;
+  border: 2px solid gray;
+  text-align: center;
+}

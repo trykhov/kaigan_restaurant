@@ -24,8 +24,8 @@ class Navigation extends React.Component {
       <nav>
         <ul>
           <li><a href="#about">About</a></li>
-          <li><a href="#about">Location</a></li>
-          <li><a href="#about">Contact</a></li>
+          <li><a href="#about">Menu</a></li>
+          <li><a href="#about">Contact & Location</a></li>
         </ul>
       </nav>
     );
@@ -52,8 +52,8 @@ class Navigation extends React.Component {
         <div className="dropMenu" style={dropMenuStyle}>
           <ul className="active">
             <li><a href="#about">About</a></li>
-            <li><a href="#about">Location</a></li>
-            <li><a href="#about">Contact</a></li>
+            <li><a href="#about">Menu</a></li>
+            <li><a href="#about">Contact & Location</a></li>
           </ul>
         </div>
       );
@@ -73,8 +73,8 @@ class Navigation extends React.Component {
             <nav>
               <ul>
                 <li><a href="#about">About</a></li>
-                <li><a href="#about">Location</a></li>
-                <li><a href="#about">Contact</a></li>
+                <li><a href="#about">Menu</a></li>
+                <li><a href="#about">Contact & Location</a></li>
               </ul>
             </nav>
         </header>
