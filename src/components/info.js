@@ -6,7 +6,7 @@ class Info extends React.Component {
     return(
       <div style={{padding: "10px", backgroundColor: "black", color: "white"}}>
         <h2> Contact & Location </h2>
-        <div style={{display: "flex"}}>
+        <div style={{display: "flex", flexWrap: "wrap", justifyContent: "center"}}>
           <div className="location">
             <h3> Location </h3>
             <p>3215 Oak Knoll Dr C </p>
